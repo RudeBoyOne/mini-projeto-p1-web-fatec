@@ -1,0 +1,48 @@
+body {
+    margin: 1rem;
+}
+
+nav {
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    padding: 0.2rem 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0rem;
+}
+
+img {
+    width: 3rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.5em;
+}
+
+figcaption {
+    text-align: center;
+}
+
+header section nav {
+    padding: 0;
+    align-self: flex-end;
+}
+
+
+header section nav a {
+    padding: 0.2em 1em;
+}
+
+header section nav a:not(:last-child) {
+    border-right: 2px solid black;
+}
