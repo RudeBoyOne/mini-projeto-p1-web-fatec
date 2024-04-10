@@ -3,10 +3,9 @@ body {
 }
 
 nav {
-    border: 2px solid black;
     display: flex;
     justify-content: flex-end;
-    gap: 5px;
+    gap: 0.5em;
     padding: 0.2rem 1rem;
 }
 
@@ -14,12 +13,6 @@ a {
     text-decoration: none;
     color: black;
     font-weight: 500;
-}
-
-section {
-    display: flex;
-    justify-content: space-between;
-    margin: 2rem 0rem;
 }
 
 img {
@@ -31,6 +24,10 @@ img {
 
 figcaption {
     text-align: center;
+}
+
+header section {
+    margin: 2rem 0rem;
 }
 
 header section nav {
@@ -45,4 +42,28 @@ header section nav a {
 
 header section nav a:not(:last-child) {
     border-right: 2px solid black;
+}
+
+article {
+    padding: 2em;
+}
+
+main article section:first-child {
+    align-self: center;
+}
+
+main article section:last-child {
+    padding: 1em;
+}
+
+main article section h4 {
+    margin-bottom: 1em;
+}
+
+main article section ul li p {
+    display: inline;
+}
+
+main article section ul li h5 {
+    margin-top: 1em;
 }

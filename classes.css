@@ -1,0 +1,8 @@
+.total-borders {
+    border: 2px solid black;
+}
+
+.container-flex-between {
+    display: flex;
+    justify-content: space-between;
+}
