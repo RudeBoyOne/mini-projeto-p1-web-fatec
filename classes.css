@@ -7,10 +7,24 @@
     justify-content: space-between;
     gap: 2em;
     margin-bottom: 2em;
+    height: 100%;
+}
+
+.container-flex-between-column {
+    display: flex;
+    flex-direction: column;
 }
 
 .borders-curves {
     border: 2px solid black;
     border-radius: 50%;
     padding: 0.4em;
+}
+
+.height-article {
+    height: 25rem;
+}
+
+.padding-last-section {
+    padding: 1em;
 }

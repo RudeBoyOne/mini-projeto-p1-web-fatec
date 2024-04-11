@@ -1,3 +1,7 @@
+#principal-header {
+    margin: 1rem 0rem 2rem 0rem;
+}
+
 #welcome {
     flex-grow: 4;
     height: 100%;
@@ -17,4 +21,8 @@
 #container-social-media {
     display: flex;
     justify-content: space-between;
+}
+
+#align-section-center {
+    align-self: center;
 }
