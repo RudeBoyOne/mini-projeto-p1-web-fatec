@@ -2,6 +2,10 @@ body {
     margin: 1rem;
 }
 
+header {
+    margin: 1rem 0rem 2rem 0rem;
+}
+
 nav {
     display: flex;
     justify-content: flex-end;
@@ -44,7 +48,7 @@ header section nav a:not(:last-child) {
     border-right: 2px solid black;
 }
 
-article {
+main article:first-child {
     padding: 2em;
 }
 
@@ -66,4 +70,18 @@ main article section ul li p {
 
 main article section ul li h5 {
     margin-top: 1em;
+}
+
+main article:last-child {
+    height: 25rem;
+}
+
+aside {
+    flex-grow: 1;
+    height: 100%;
+}
+
+aside section h5 {
+    padding: 0.5em;
+    margin-bottom: 2em;
 }
