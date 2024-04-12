@@ -28,3 +28,19 @@
 .padding-last-section {
     padding: 1em;
 }
+
+.flex-grow-section {
+    flex-grow: 1;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1.5em;
+    gap: 2em;
+    grid-row-gap: 0.5em;
+}
+
+.end-align {
+    align-self: flex-end;
+}
