@@ -6,7 +6,8 @@ nav {
     display: flex;
     justify-content: flex-end;
     gap: 0.5em;
-    padding: 0.2rem 1rem;
+    padding: 0.2rem 0.5rem;
+    font-family: "Nunito", sans-serif;
 }
 
 a {
@@ -37,11 +38,23 @@ header section nav {
 
 
 header section nav a {
-    padding: 0.2em 1em;
+    padding: 0.2em 0.5em;
 }
 
 header section nav a:not(:last-child) {
     border-right: 2px solid black;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+h4 {
+    font-size: x-large;
+}
+
+h5 {
+    font-size: large;
 }
 
 main article:first-child {
