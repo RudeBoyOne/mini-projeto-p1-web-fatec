@@ -6,13 +6,14 @@
     display: flex;
     justify-content: space-between;
     gap: 2em;
-    margin-bottom: 2rem;
-    height: 100%;
+    height: 55%;
 }
 
 .container-flex-between-column {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    height: 25em;
 }
 
 .borders-curves {
@@ -23,6 +24,7 @@
 
 .height-article {
     height: 25rem;
+    margin-bottom: 2em;
 }
 
 .padding-last-section {

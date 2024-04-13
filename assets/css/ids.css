@@ -2,10 +2,6 @@
     margin: 1rem 0rem 2rem 0rem;
 }
 
-#second-header {
-    margin-bottom: 1rem;
-}
-
 #welcome {
     flex-grow: 4;
     height: 100%;
@@ -25,6 +21,7 @@
 #container-social-media {
     display: flex;
     justify-content: space-between;
+    justify-content: center;
 }
 
 #align-section-center {
@@ -61,4 +58,23 @@
 
 #title-margin-bootom {
     margin-bottom: 1em;
+}
+
+#container-aside {
+    height: 100%;
+}
+
+#container-title-aside {
+    display: flex;
+}
+
+#title-aside {
+    width: 80%;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#box-aside {
+    height: 90.5%;
 }

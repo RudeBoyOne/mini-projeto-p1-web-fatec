@@ -57,6 +57,10 @@ h5 {
     font-size: large;
 }
 
+h6 {
+    font-size: large;
+}
+
 main article:first-child {
     padding: 2em;
 }
@@ -75,10 +79,13 @@ main article section ul li h5 {
 
 aside {
     flex-grow: 1;
-    height: 100%;
 }
 
 aside section h5 {
     padding: 0.5em;
-    margin-bottom: 2em;
+}
+
+small {
+    font-size: smaller;
+    font-weight: bold;
 }
